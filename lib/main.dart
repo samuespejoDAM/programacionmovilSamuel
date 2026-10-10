@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/perfil_screen.dart';
+import 'screens/pantalla1.dart';
 
 void main() => runApp(const MyApp());
 
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PerfilScreen(),
+      home: Pantalla1(),
     );
   }
 }

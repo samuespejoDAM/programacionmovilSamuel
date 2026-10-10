@@ -7,7 +7,7 @@ class Pantalla7 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Punto 7 - Imágenes'),
+        title: const Text('3 Imágenes'),
       ),
       body: SingleChildScrollView(
         child: Column(

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import '../drawer/menu_lateral.dart';
 
-class MiniaturasScreen extends StatelessWidget {
-  const MiniaturasScreen({super.key});
+class Pantalla3 extends StatelessWidget {
+  const Pantalla3({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('3 Miniaturas')),
+      appBar: AppBar(title: const Text('3 Fotos en miniaturas')),
       drawer: const MenuLateral(),
       body: Center(
         child: Column(

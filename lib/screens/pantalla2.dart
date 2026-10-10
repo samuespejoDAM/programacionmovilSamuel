@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import '../drawer/menu_lateral.dart';
 
-class FotoNombre extends StatelessWidget {
-  const FotoNombre({super.key});
+class Pantalla2 extends StatelessWidget {
+  const Pantalla2({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Perfil')),
+      appBar: AppBar(title: const Text('Foto y Nombre')),
       drawer: const MenuLateral(),
       body: Center(
         child: Column(

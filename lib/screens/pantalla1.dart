@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../drawer/menu_lateral.dart';
 
-class PerfilScreen extends StatelessWidget {
-  const PerfilScreen({super.key});
+class Pantalla1 extends StatelessWidget {
+  const Pantalla1({super.key});
 
   @override
   Widget build(BuildContext context) {

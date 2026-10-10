@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import '../screens/perfil_screen.dart';
-import '../screens/foto_nombre_screen.dart';
-import '../screens/miniaturas_screen.dart';
-import '../screens/iconos_screen.dart';
-import '../screens/imagenes_screen.dart';
+import '../screens/pantalla1.dart';
+import '../screens/pantalla2.dart';
+import '../screens/pantalla3.dart';
+import '../screens/pantalla4.dart';
+import '../screens/pantalla5.dart';
 import '../screens/pantalla6.dart';
 import '../screens/pantalla7.dart';
+import '../screens/pantalla8.dart';
+import '../screens/pantalla9.dart';
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
@@ -28,7 +30,7 @@ class MenuLateral extends StatelessWidget {
               Navigator.pop(context);
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const PerfilScreen()),
+                MaterialPageRoute(builder: (context) => const Pantalla1()),
               );
             },
           ), // <-- Se añadió el cierre );
@@ -38,7 +40,7 @@ class MenuLateral extends StatelessWidget {
               Navigator.pop(context);
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const FotoNombre()),
+                MaterialPageRoute(builder: (context) => const Pantalla2()),
               );
             },
           ), // <-- Se añadió el cierre );
@@ -48,7 +50,7 @@ class MenuLateral extends StatelessWidget {
               Navigator.pop(context);
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const MiniaturasScreen()),
+                MaterialPageRoute(builder: (context) => const Pantalla3()),
               );
             },
           ),
@@ -58,7 +60,7 @@ class MenuLateral extends StatelessWidget {
               Navigator.pop(context);
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const IconosScreen()),
+                MaterialPageRoute(builder: (context) => const Pantalla4()),
               );
             },
           ),
@@ -68,7 +70,7 @@ class MenuLateral extends StatelessWidget {
               Navigator.pop(context);
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const ImagenesScreen()),
+                MaterialPageRoute(builder: (context) => const Pantalla5()),
               );
             },
           ),
@@ -89,6 +91,27 @@ class MenuLateral extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const Pantalla7()),
+              );
+            },
+          ),
+               ListTile(
+            title: const Text('8. 6 Fotos Teléfono'),
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const Pantalla8()),
+              );
+            },
+          ),
+          
+               ListTile(
+            title: const Text('9. Reto en el proyecto 1'),
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const Pantalla9()),
               );
             },
           ),

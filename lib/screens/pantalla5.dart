@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../drawer/menu_lateral.dart';
 
-class ImagenesScreen extends StatelessWidget {
-  const ImagenesScreen({super.key});
+class Pantalla5 extends StatelessWidget {
+  const Pantalla5({super.key});
 
   @override
   Widget build(BuildContext context) {

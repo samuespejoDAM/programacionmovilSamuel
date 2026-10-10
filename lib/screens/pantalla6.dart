@@ -9,7 +9,7 @@ class Pantalla6 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Punto 6 - Textos'),
+        title: const Text('3 Textos'),
       ),
       body: SingleChildScrollView(
         child: Column(
