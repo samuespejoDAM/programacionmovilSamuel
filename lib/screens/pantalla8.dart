@@ -7,7 +7,7 @@ class Pantalla8 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('6 Imágenes'),
+        title: const Text('6 Imágenes con textos'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
